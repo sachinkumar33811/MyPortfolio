@@ -1,0 +1,29 @@
+.about-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #7f53ac 0%, #647dee 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-card {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 20px;
+  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.10);
+  text-align: center;
+}
+
+.about-card h2 {
+  margin-bottom: 16px;
+  color: #ffd600;
+}
+
+.about-card p {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}

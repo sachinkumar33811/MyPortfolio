@@ -1,0 +1,119 @@
+.projects-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #7f53ac 0%, #647dee 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-section-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.projects-section-title h2 {
+  color: #ffd600;
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.projects-section-title p {
+  color: #fff;
+  font-size: 1.15rem;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.project-card {
+  background: rgba(255,255,255,0.12);
+  border-radius: 20px;
+  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.10);
+  padding: 28px 32px;
+  min-width: 260px;
+  max-width: 340px;
+  text-align: left;
+  color: #fff;
+  position: relative;
+}
+
+.project-card h3 {
+  color: #ffd600;
+  margin-bottom: 12px;
+}
+
+.project-card button {
+  margin-top: 12px;
+  background: #ffd600;
+  color: #2d2d2d;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.project-card button:hover {
+  background: #ffe066;
+}
+
+.project-modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.project-modal-content {
+  background: #fff;
+  color: #222;
+  border-radius: 16px;
+  padding: 32px 24px;
+  max-width: 500px;
+  width: 90vw;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  text-align: left;
+}
+
+.project-modal-content h4 {
+  margin-top: 0;
+  color: #7f53ac;
+}
+
+.project-modal-content pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+  margin-bottom: 18px;
+}
+
+.project-modal-content button {
+  background: #7f53ac;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
