@@ -16,7 +16,7 @@ function Hero() {
           <h1>Hi, I'm <span className="highlight">Sachin Kumar</span></h1>
           <h2>Full-Stack Developer | React.js | PHP & JavaScript</h2>
           <p>Building scalable, user-focused web applications with React and modern web technologies.</p>
-          <a href="/sachin_cv_jan.pdf" className="btn btn-primary" style={{ marginLeft: "1rem" }} download target="_blank" rel="noopener noreferrer"> Download Resume </a>
+          <a href="/sachin_cv_oct.pdf" className="btn btn-primary" style={{ marginLeft: "1rem" }} download target="_blank" rel="noopener noreferrer"> Download Resume </a>
           <div className="hero-stats">
             <div><span className="stat-number">5+</span><span className="stat-label">Production Modules</span></div>
             <div><span className="stat-number">10+</span><span className="stat-label">Features Delivered</span></div>
